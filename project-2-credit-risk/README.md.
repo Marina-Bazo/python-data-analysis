@@ -1,1 +1,29 @@
 # Credit Risk Classification
+
+## Project Overview
+Machine learning project to predict credit risk using the German Credit Dataset.
+
+## Dataset
+- Source: German Credit Data (Kaggle)
+- 1,000 clients, 10 features
+- Target: Risk (good/bad) — evaluated by credit specialists
+
+## Tools Used
+- Python
+- pandas, numpy, matplotlib
+- scikit-learn (Logistic Regression)
+
+## Results
+- Accuracy: 75.5%
+- Good Risk Recall: 91%
+- Bad Risk Recall: 37%
+
+## Key Insights
+- Clients with higher credit amounts tend to be higher risk
+- Younger clients (20-30) represent the highest volume of bad risk
+- Dataset is imbalanced: 70% good, 30% bad
+
+## Next Steps
+- Apply SMOTE to balance the dataset
+- Test Random Forest or XGBoost
+- Tune decision threshold to improve bad risk detection
